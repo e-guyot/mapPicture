@@ -1,222 +1,164 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
-
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-        crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-        crossorigin=""></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Book Photo </title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<style>
-    html,
-    body {
-        height: 100%
-    }
-</style>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
 
-<body onload="initialize()">
-    <div id="map" style="width:100%; height:100%"></div>
-</body>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Book Photo</h1>
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+        <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="src/img/soleil.JPG" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="src/img/soleil.JPG" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="src/img/soleil.JPG" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
-<script type="text/javascript">
-    var coord = [
-        {
-            "name": "Paris",
-            "lat": 48.862725,
-            "long": 2.287592
-        },
-        {
-            "name": "Londre",
-            "lat": 51.5072,
-            "long": -0.1275
-        },
-        {
-            "name": "Stockholm",
-            "lat": 59.3251172,
-            "long": 18.0710935
-        },
-        {
-            "name": "Mykonos",
-            "lat": 37.4514345,
-            "long": 25.3923375
-        },
-        {
-            "name": "New York",
-            "lat": 40.7127281,
-            "long": -74.0060152
-        },
-        {
-            "name": "Quebec",
-            "lat": 52.4760892,
-            "long": -71.8258668
-        },
-        {
-            "name": "Andorre",
-            "lat": 42.5407167,
-            "long": 1.5732033
-        },
-        {
-            "name": "Saint-Martin",
-            "lat": 18.012,
-            "long": -63.046
-        },
-        {
-            "name": "République Dominicaine",
-            "lat": 18.470,
-            "long": -69.877
-        },
-        {
-            "name": "Barbade",
-            "lat": 13.212,
-            "long": -59.518
-        },
-        {
-            "name": "Sainte-Lucie",
-            "lat": 14.025,
-            "long": -60.984
-        },
-        {
-            "name": "Antigue et barbarde",
-            "lat": 17.135,
-            "long": -61.888
-        },
-        {
-            "name": "Saint-Sébastien",
-            "lat": 43.324,
-            "long": -1.993
-        },
-        {
-            "name": "Porto",
-            "lat": 41.139,
-            "long": -8.610
-        },
-        {
-            "name": "Monaco",
-            "lat": 43.733,
-            "long": 7.416
-        },
-        {
-            "name": "Bergen",
-            "lat": 60.396,
-            "long": 5.329
-        },
-        {
-            "name": "Rostock",
-            "lat": 54.167,
-            "long": 12.083
-        },
-        {
-            "name": "Saint-Pétesbourg",
-            "lat": 59.934,
-            "long": 30.335
-        },
-        {
-            "name": "Tallinn",
-            "lat": 59.437,
-            "long": 24.754
-        },
-        {
-            "name": "Rome",
-            "lat": 41.903,
-            "long": 12.496
-        },
-        {
-            "name": "Kotor",
-            "lat": 42.425,
-            "long": 18.771
-        },
-        {
-            "name": "Malte",
-            "lat": 35.899,
-            "long": 14.515
-        },
-        {
-            "name": "Soest",
-            "lat": 52.133,
-            "long": 5.291
-        },
-        {
-            "name": "Autriche",
-            "lat": 47.765,
-            "long": 13.221
-        },
-        {
-            "name": "Postojona",
-            "lat": 45.816,
-            "long": 14.127
-        },
-        {
-            "name": "Croatie",
-            "lat": 44.865,
-            "long": 15.582
-        },
-        {
-            "name": "Suisse",
-            "lat": 47.659,
-            "long": 8.859
-        },
-        {
-            "name": "Berlin",
-            "lat": 52.520,
-            "long": 13.405
-        },
-        {
-            "name": "Prague",
-            "lat": 50.076,
-            "long": 14.438
-        },
-        {
-            "name": "Luxor",
-            "lat": 25.719,
-            "long": 32.656
-        },
-        {
-            "name": "Dublin",
-            "lat": 53.393,
-            "long": -6.065
-        },
-        {
-            "name": "Tunis",
-            "lat": 36.806,
-            "long": 10.182
-        },
-        {
-            "name": "Danemark",
-            "lat": 55.6867243,
-            "long": 12.5700724
-        },
-        {
-            "name": "Brussel",
-            "lat": 50.8465573,
-            "long": 4.351697
-        },
-        {
-            "name": "Luxembourg",
-            "lat": 49.8158683,
-            "long": 6.1296751
-        },
-        {
-            "name": "Amsterdam",
-            "lat": 52.3727598,
-            "long": 4.8936041
-        }
-    ]
-    function initialize() {
-        var map = L.map('map').setView([20, 0], 2);
-        for (var i = 0; i < coord.length; i++) {
-            L.marker([coord[i]["lat"], coord[i]["long"]]).addTo(map)
-                .bindPopup(coord[i]["name"]);
-        }
-
-        var osmLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { // LIGNE 20
-            attribution: '© OpenStreetMap contributors',
-            maxZoom: 19,
-        });
-
-        map.addLayer(osmLayer);
-    }
-</script>
